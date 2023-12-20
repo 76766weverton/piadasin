@@ -1,0 +1,68 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, main, footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Adiciona sombra 3D */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background-color: #222; /* Cor mais escura para o cabeçalho */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  padding: 20px;
+  background-color: #333; /* Cor mais escura para o conteúdo principal */
+}
+
+footer {
+  background-color: #222; /* Cor mais escura para o rodapé */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  /* Adiciona sombra 3D */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border-bottom: 1px solid #ddd;
+  padding: 100px;
+  /* Adiciona sombra 3D */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Exemplo de estilo para tornar a navegação responsiva */
+@media only screen and (max-width: 600px) {
+  nav {
+    text-align: center;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
